@@ -7,9 +7,12 @@
 
 import Foundation
 
-class Product {
-    var name : String, description : String, picture : String
-    var quantity : Int, price : Int
+class Product : ObservableObject{
+    @Published var name : String
+    @Published var description : String
+    @Published var picture : String
+    @Published var quantity : Int
+    @Published var price : Int
     
     init(name : String = "", description : String = "", picture : String = "", quantity : Int = 0, price : Int = 0) {
         self.name = name

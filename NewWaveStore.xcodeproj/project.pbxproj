@@ -12,6 +12,7 @@
 		4E1FD691292BA83E008818C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1FD690292BA83E008818C0 /* Assets.xcassets */; };
 		4E1FD694292BA83E008818C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1FD693292BA83E008818C0 /* Preview Assets.xcassets */; };
 		4E1FD69D292BAA93008818C0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1FD69C292BAA93008818C0 /* Product.swift */; };
+		4E1FD6A1292BB26C008818C0 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1FD6A0292BB26C008818C0 /* ProductList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4E1FD690292BA83E008818C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E1FD693292BA83E008818C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E1FD69C292BAA93008818C0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4E1FD6A0292BB26C008818C0 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4E1FD69C292BAA93008818C0 /* Product.swift */,
+				4E1FD6A0292BB26C008818C0 /* ProductList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E1FD68F292BA83D008818C0 /* ContentView.swift in Sources */,
+				4E1FD6A1292BB26C008818C0 /* ProductList.swift in Sources */,
 				4E1FD68D292BA83D008818C0 /* NewWaveStoreApp.swift in Sources */,
 				4E1FD69D292BAA93008818C0 /* Product.swift in Sources */,
 			);
